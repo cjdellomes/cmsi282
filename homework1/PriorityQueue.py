@@ -45,5 +45,4 @@ class PriorityQueue:
 		return len(self.heap)
 
 	def __str__(self):
-		for i in range(0, len(self.heap)):
-			return str(self.heap)
+		return str(self.heap)
